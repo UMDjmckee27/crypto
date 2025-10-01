@@ -1,0 +1,24 @@
+Python environment files
+*.pyc
+pycache/
+.env
+venv/
+instance/
+
+Secrets and credentials
+Always block files that contain API keys, database URLs, etc.
+secrets.py
+config_local.py
+api_keys.txt
+*.key
+
+Data and output files
+Block large analysis output files or databases
+*.db
+*.sqlite3
+prices_data.json
+trends_data.json
+
+Operating system files
+.DS_Store
+Thumbs.db
